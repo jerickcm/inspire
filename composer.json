@@ -1,5 +1,5 @@
 {
-    "name": "jerick-cm/inspire",
+    "name": "jerickcm/inspire",
     "autoload": {
         "psr-4": {
             "Fhsinchy\\Inspire\\": "src/"
