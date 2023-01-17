@@ -2,7 +2,7 @@
     "name": "jerickcm/inspire",
     "autoload": {
         "psr-4": {
-            "Fhsinchy\\Inspire\\": "src/"
+            "Jerickcm\\Inspire\\": "src/"
         }
     },
     "authors": [
