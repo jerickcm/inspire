@@ -1,0 +1,20 @@
+{
+    "name": "fhsinchy/inspire",
+    "description": "\"first laravel packages\"",
+    "type": "library",
+    "license": "v1.0.0",
+    "autoload": {
+        "psr-4": {
+            "Jerickcm\\Inspire\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "dr-roshyara",
+            "email": "mathematikboy@yahoo.com"
+        }
+    ],
+    "require": {
+	 "guzzlehttp/guzzle": "^7.5"
+    }
+}
