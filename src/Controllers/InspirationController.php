@@ -1,15 +1,16 @@
 <?php
-
-namespace Fhsinchy\Inspire\Controllers;
+namespace Jerickcm\Inspire\Controllers;
 
 use Illuminate\Http\Request;
-use Fhsinchy\Inspire\Inspire;
-
+use Jerickcm\Inspire\Inspire;
 class InspirationController
 {
-    public function __invoke(Inspire $inspire)
-    {
+    public function __invoke(Inspire $inspire) {
         $quote = $inspire->justDoIt();
+
+        // return $quote;
         return view('inspire::index', compact('quote'));
     }
 }
+
+

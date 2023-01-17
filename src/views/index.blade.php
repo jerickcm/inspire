@@ -10,8 +10,10 @@
 </head>
 
 <body>
+     <h1 class="container"
+     style="margin-bottom: 10px; padding-bottom:4px;color:brown;"> Here is my Quote </h1>
     <div class="container">
-        <h1>{{ $quote }}</h1>
+        <h2>{{ $quote }}</h2>
     </div>
 </body>
 </html>
