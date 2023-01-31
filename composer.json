@@ -1,6 +1,7 @@
 {
 	"name": "jerickcm/inspire",
 	"description": "\"first laravel packages\"",
+    "license": "MIT",
 	"autoload": {
 		"psr-4": {
 			"Jerickcm\\Inspire\\": "src/"
